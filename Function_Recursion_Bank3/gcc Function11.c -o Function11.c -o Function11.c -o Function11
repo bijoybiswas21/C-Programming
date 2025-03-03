@@ -1,0 +1,6 @@
+gcc Function11.c -o Function11
+./Function11
+gcc Function11.c -o Function11
+./Function11
+gcc Function11.c -o Function11
+./Function11
