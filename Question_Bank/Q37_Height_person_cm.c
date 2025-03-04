@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     float PerHeight;
-    printf("Enter The Height of the Persion (in cemtimetres):-");
+    printf("Enter The Height of the Person (in cemtimetres):-");
     scanf("%f",&PerHeight);
     if(PerHeight<150.0 )
     printf("The Person is Dwarf .\n");

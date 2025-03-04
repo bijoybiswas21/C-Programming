@@ -13,9 +13,9 @@ int main()
         {
             if(a[i]>a[j]  )
             {
-                temp=a[i];
+                temp=a[i];    //swap concept
                 a[i]=a[j];
-                a[j]=temp;
+                a[j]=temp;    
             }
         }
     }
