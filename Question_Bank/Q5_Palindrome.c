@@ -4,13 +4,13 @@ int main(){
     printf("Enter Any Number:- ");
     scanf("%d",&n);
     a=n;
-    while(n>0)
+    do
     {
         r=n%10;
         s=(s*10)+r;
         n=n/10;
-
-    }
+    }  while(n!=0);
+    
     if (a==s)
     {
          printf("Palindrome Number");
